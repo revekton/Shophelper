@@ -17,5 +17,8 @@ public class Constants {
 	public static final String ALT = "alt";
 	public static final String REMOVE_CHAR2 = " Cep Telefonu";
 	public static final String AKAKCE_URL = "https://www.akakce.com";
+	public static final String CİMRİ = "z7ntrt-0";
+	public static final String CİMRİ_URL = "https://www.cimri.com";
+	public static final String REMOVE_CHAR3 = " akıllı cep telefonu";
 	
 }
