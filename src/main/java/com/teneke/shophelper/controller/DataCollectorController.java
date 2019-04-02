@@ -19,9 +19,9 @@ public class DataCollectorController {
 	
 	@GetMapping("/getData")
 	private String getDataAndInsert() throws IOException {
-		
+		System.out.println("213213");
 		dataCollectorService.getData();
-		
+		System.out.println("123456");
 		return "ok";
 	}
 	
