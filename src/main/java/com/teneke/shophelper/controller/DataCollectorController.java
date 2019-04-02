@@ -16,7 +16,10 @@ public class DataCollectorController {
 	
 	@Autowired
 	DataCollectorService dataCollectorService;
-	
+	@GetMapping("/")
+	private String homepage(){
+	return "ana sayfa-taha";
+	}
 	@GetMapping("/getData")
 	private String getDataAndInsert() throws IOException {
 		System.out.println("213213");
